@@ -1,0 +1,52 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "house maid",
+      "intents": [
+        {
+          "name": "AskIntent",
+          "samples": [
+            "I'm home",
+            "I am home",
+            "I'm back",
+            "I am back"
+          ]
+        },
+        {
+          "name": "HungryIntent",
+          "samples": [
+            "I'm hungry",
+            "I am hungry",
+            "I want to eat"
+          ]
+        },
+        {
+          "name": "BathIntent",
+          "samples": [
+            "I'm tired",
+            "I am tired",
+            "take a bath"
+          ]
+        },
+        {
+          "name": "GoodbyeIntent",
+          "samples": [
+            "good bye",
+            "see you"
+          ]
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": [
+            "stop",
+            "shut up",
+            "nothing"
+          ]
+        }
+      ]
+    }
+  }
+}

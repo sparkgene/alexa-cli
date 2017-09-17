@@ -1,0 +1,28 @@
+{
+  "skillManifest": {
+    "publishingInformation": {
+      "locales": {
+        "en-US": {
+          "name": "house maid"
+        }
+      },
+      "isAvailableWorldwide": true,
+      "distributionCountries": []
+    },
+    "apis": {
+      "custom": {
+        "endpoint": {
+          "uri": "lambda arn"
+        },
+        "regions": {
+          "NA": {
+            "endpoint": {
+              "uri": "lambda arn"
+            }
+          }
+        }
+      }
+    },
+    "manifestVersion": "1.0"
+  }
+}

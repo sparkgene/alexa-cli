@@ -1,0 +1,27 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "house maid",
+      "intents": [
+        {
+          "name": "AskIntent",
+          "samples": [
+            "I'm home",
+            "I am home",
+            "I'm back",
+            "I am back"
+          ]
+        },
+        {
+          "name": "GoodbyeIntent"
+        },
+        {
+          "name": "AMAZON.HelpIntent"
+        },
+        {
+          "name": "AMAZON.StopIntent"
+        }
+      ]
+    }
+  }
+}
