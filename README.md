@@ -62,6 +62,7 @@ lambdaの作成は以下の内容で。
 |role|上記で作成したRole|
 |handler|lambda_function.lambda_handler|
 |description|handsonっぽい內容|
+|region|us-east-1|
 
 環境変数
 
