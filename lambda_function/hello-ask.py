@@ -2,7 +2,7 @@
 import os
 
 MEDIA_BUCKET = os.environ["MEDIA_BUCKET"]
-BUCKET_URL = "https://s3.amazonaws.com/{}/{}"
+BUCKET_URL = "https://s3-ap-northeast-1.amazonaws.com/{}/{}"
 
 def lambda_handler(event, context):
     print(event)
