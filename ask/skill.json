@@ -12,12 +12,12 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "lambda arn"
+          "uri": "<lambda arn>"
         },
         "regions": {
           "NA": {
             "endpoint": {
-              "uri": "lambda arn"
+              "uri": "<lambda arn>"
             }
           }
         }
