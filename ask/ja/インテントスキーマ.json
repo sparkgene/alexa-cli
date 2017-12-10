@@ -1,0 +1,16 @@
+{
+  "intents": [
+    {
+      "intent": "ImHomeIntent"
+    },
+    {
+      "intent": "HungryIntent"
+    },
+    {
+      "intent": "BathIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
