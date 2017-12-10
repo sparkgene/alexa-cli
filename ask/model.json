@@ -4,7 +4,7 @@
       "invocationName": "house maid",
       "intents": [
         {
-          "name": "AskIntent",
+          "name": "ImHomeIntent",
           "samples": [
             "I'm home",
             "I am home",
@@ -29,21 +29,10 @@
           ]
         },
         {
-          "name": "GoodbyeIntent",
+          "name": "AMAZON.StopIntent",
           "samples": [
             "good bye",
             "see you"
-          ]
-        },
-        {
-          "name": "AMAZON.HelpIntent"
-        },
-        {
-          "name": "AMAZON.StopIntent",
-          "samples": [
-            "stop",
-            "shut up",
-            "nothing"
           ]
         }
       ]

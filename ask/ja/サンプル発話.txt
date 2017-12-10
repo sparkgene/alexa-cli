@@ -1,0 +1,18 @@
+ImHomeIntent ただいま
+ImHomeIntent 帰ったよ
+ImHomeIntent 帰りました
+ImHomeIntent ただいま帰りました
+
+HungryIntent ご飯にする
+HungryIntent 飯にする
+HungryIntent 食事にする
+HungryIntent お腹すいた
+HungryIntent 腹減った
+
+BathIntent お風呂にする
+BathIntent お風呂に入りたい
+BathIntent 体洗いたい
+BathIntent さっぱりしたい
+
+AMAZON.StopIntent さようなら
+AMAZON.StopIntent ごきげんよう
