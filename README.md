@@ -3,7 +3,7 @@
 ## 事前準備
 
 - Amazon Developer Accountの作成
-  - https://developer.amazon.com/
+  - https://developer.amazon.com/ja/
 - cliのインストール
   - https://developer.amazon.com/public/solutions/alexa/alexa-skills-kit/docs/quick-start-alexa-skills-kit-command-line-interface#step-2-install-and-initialize-ask-cli
 
@@ -11,7 +11,7 @@
 
 # ハンズオン
 
-- regionはすべて、 `us-east-1` を利用する
+- regionはすべて、 `ap-northeast-1` を利用する
 
 ## 事前確認
 
@@ -22,12 +22,6 @@
 - ハンズオン用のサンプルソースを含んでいるgitリポジトリをcloneする
 
 以降の作業はcloneしたリポジトリのディレクトリに入って行う
-
-## S3バケットの準備
-
-- バケット作成
-- audio/の中身をすべて作成したバケットにアップロード
-- オブジェクトのACLはすべて `public-read`
 
 ## roleの作成
 
@@ -57,18 +51,12 @@ lambdaの作成は以下の内容で。
 
 |項目|値など|
 |----|----|
-|function-name|house-maid|
+|function-name|hello-ask|
 |runtime|python2.7|
 |role|上記で作成したRole|
-|handler|lambda_function.lambda_handler|
+|handler|hello-ask.lambda_handler|
 |description|handsonっぽい內容|
-|region|us-east-1|
-
-環境変数
-
-- MEDIA_BUCKET
-  - 作ったS3のバケット名
-
+|region|ap-northeast-1|
 
 作成したLambdaのARNを控えておく
 
@@ -87,7 +75,7 @@ $ ask init -p <profile名>
 ### ask用の環境変数設定
 
 ```
-export ASK_DEFAULT_DEVICE_LOCALE=en-US
+export ASK_DEFAULT_DEVICE_LOCALE=js-JP
 export ASK_DEFAULT_PROFILE=<ask initで指定したプロファイル名>
 ```
 
