@@ -26,7 +26,7 @@ def on_intent(request, session):
         return return_eat()
     elif intent_name == "BathIntent":
         return return_bath()
-    elif: intent_name == "AMAZON.StopIntent":
+    elif intent_name == "AMAZON.StopIntent":
         return return_stop()
 
     return return_hello()

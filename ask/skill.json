@@ -12,7 +12,7 @@
     "apis": {
       "custom": {
         "endpoint": {
-          "uri": "arn:aws:lambda:ap-northeast-1:304322479775:function:ask-handson-butler-skill"
+          "uri": "arn:aws:lambda:ap-northeast-1:<account id>:function:ask-handson-butler-skill"
         }
       }
     },
